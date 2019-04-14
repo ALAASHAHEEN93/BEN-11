@@ -284,7 +284,8 @@ nav ul li a {
 }
 
 .active {
-  color: #afafaf;
+  color:var(--main-color);
+;
 }
 
 /*----------------------------------------------------------------------------------*/
@@ -339,12 +340,12 @@ header.bg-video{
 }
 
 .header-content .list-social li i {
-  color: var(--main-color);;
+  color: var(--main-color);
   font-size: 15px;
 }
 
 .m-btn-theme {
-    color: var(--main-color);;
+    color: var(--main-color);
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
