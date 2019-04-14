@@ -56,7 +56,7 @@ a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-i.fa.fa-angle-double-up.fa-2x{
+a#gototop {
   color:var(--main-color);
 }
 
