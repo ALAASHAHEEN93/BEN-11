@@ -56,6 +56,10 @@ a {
   transition: all 0.5s ease-in-out 0s;
 }
 
+i.fa.fa-angle-double-up.fa-2x{
+  color:var(--main-color);
+}
+
 a:hover {
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
