@@ -59,7 +59,28 @@ a {
 a#gototop {
   color:var(--main-color);
 }
+.intro .page-scroll {
+	text-align: center;
+}
 
+.intro .page-scroll {
+	text-align: center;
+}
+
+
+.intro .page-scroll a {
+	color: var(--main-color);
+}
+.page-scroll {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 9999999999;
+    bottom: 25%;
+}
+.intro .page-scroll a {
+	color: var(--main-color);
+}
 a:hover {
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -100,9 +121,13 @@ nav ul li a {
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
+      font-family: 'Poppins', helvetica;
+
   padding-top: 60px;
 }
-
+ .heading.text-center {
+    margin-bottom: 29px;
+}
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -110,6 +135,8 @@ nav ul li a {
   color: #818181;
   display: block;
   transition: 0.3s;
+      font-family: 'Poppins', helvetica;
+
 }
 
 .sidenav a:hover {
@@ -122,6 +149,7 @@ nav ul li a {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+  font-family: 'Poppins', helvetica;
 }
 
 #main {
@@ -132,6 +160,7 @@ nav ul li a {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+   
 }
 
 
@@ -182,10 +211,12 @@ p {
   font-size: 25px;
   letter-spacing: 2px;
         color: var(--main-color);
-
+margin-top: 25px;
   text-transform: uppercase;
 }
-
+section#counter{
+        background-color: #f7f7f7;
+}
 .form-control {
   background-color: transparent;
   border: 1px solid #999;
@@ -1238,6 +1269,7 @@ img.card-img-bg {
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   position: relative;
+    
 }
 
 .front,
@@ -1441,4 +1473,16 @@ section#counter-stats {
 
 #map-canvas{
   min-height: 400px;
+}
+
+@media  (max-width: 1024px){
+     .header-content {
+        font-size: smaller;
+    }
+    .header-content{
+        height: auto;
+    }
+    .m-btn {
+          line-height: 20px;
+    height: 18px;
 }
