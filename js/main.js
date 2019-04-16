@@ -50,7 +50,7 @@ $(document).ready(function() {
     	$('#owl-blog').owlCarousel({
 		items : 3,
 		nav: true,
-    navText: ['<', '>'],
+    navText: ['prev', ''],
 		itemsDesktop : [1199,3],
 		itemsDesktopSmall : [980,1],
 		itemsTablet: [768,1],
@@ -85,7 +85,18 @@ $(document).ready(function() {
             itemsTabletSmall: [550,2],
             itemsMobile : [480,2],
         });
-	
+
+    $('#owl-about').owlCarousel({
+			items : 3,
+			navigation	: true,
+        nav:true,
+            itemsDesktop : [1199,5],
+            itemsDesktopSmall : [980,5],
+            itemsTablet: [768,5],
+            itemsTabletSmall: [550,2],
+            itemsMobile : [480,2],
+        });
+
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll > 200 ) {
