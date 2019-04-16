@@ -538,6 +538,7 @@ header.bg-video{
 .owl-nav {
   font-size: 2em;
         color: var(--main-color);
+    text-align: center;
 
 }
 
@@ -915,10 +916,7 @@ img {
   background-color: #b8a07e;
 }
 
-.owl-nav {
-  display: none;
-}
-
+ 
 #journal,  #journal-blog {
   height: auto;
   width: 100%;

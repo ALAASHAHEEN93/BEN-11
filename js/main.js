@@ -50,7 +50,7 @@ $(document).ready(function() {
     	$('#owl-blog').owlCarousel({
 		items : 3,
 		nav: true,
-    navText: ['prev', ''],
+    navText: ['<', '>'],
 		itemsDesktop : [1199,3],
 		itemsDesktopSmall : [980,1],
 		itemsTablet: [768,1],
